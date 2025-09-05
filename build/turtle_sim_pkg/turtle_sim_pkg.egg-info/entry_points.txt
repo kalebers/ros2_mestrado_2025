@@ -1,0 +1,5 @@
+[console_scripts]
+draw_square = turtle_sim_pkg.draw_square:main
+go_to_goal = turtle_sim_pkg.go_to_goal:main
+pose_subscriber = turtle_sim_pkg.pose_subscriber:main
+

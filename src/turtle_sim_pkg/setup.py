@@ -20,6 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        	'pose_subscriber = turtle_sim_pkg.pose_subscriber:main',
+        	'draw_square = turtle_sim_pkg.draw_square:main',
+        	'go_to_goal = turtle_sim_pkg.go_to_goal:main'
         ],
     },
 )
