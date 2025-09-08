@@ -21,7 +21,6 @@ class SquarePublisher(Node):
 			(0.0,0.0) # parar
 		]
 		self.step_index = 0
-	
 		
 	def move_square(self):
 		if self.step_index < len(self.commands):

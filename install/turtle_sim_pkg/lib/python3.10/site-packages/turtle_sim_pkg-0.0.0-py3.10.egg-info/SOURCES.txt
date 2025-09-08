@@ -14,6 +14,6 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle_sim_pkg/__init__.py
-turtle_sim_pkg/draw_sqaure.py
+turtle_sim_pkg/draw_square.py
 turtle_sim_pkg/go_to_goal.py
 turtle_sim_pkg/pose_subscriber.py
