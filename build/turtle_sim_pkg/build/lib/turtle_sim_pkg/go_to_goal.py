@@ -1,5 +1,5 @@
 import rclpy
-from rclpy import Node
+from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 import math
@@ -26,7 +26,7 @@ class GoToGoal(Node):
 		distance = math.sqrt((self.goal_x - self.pose.x) ** 2 + (self.goal_y - self.pose.y) ** 2)
 		
 		if distance > 0.1: # se ainda nao chegou
-			angle_to_goal = math.atan2(self.goal_y - self.pose_y, self.goal_x - self.pose.x)
+			angle_to_goal = math.atan2(self.goal_y - self.pose.y, self.goal_x - self.pose.x)
 			msg.linear.x = 1.5 * distance
 			msg.angular.z = 4.0 * (angle_to_goal - self.pose.theta)
 		else:
@@ -39,24 +39,24 @@ class GoToGoal(Node):
 			
 		self.publisher_.publish(msg)
 		
-	def main(args=None):
-		rclpy.init(args=args)
-		#verifica se os argumentos foram passados
-		if len(sys.argv) != 3:
-			print("Uso: ros2 run <nome_do_pacote> go_to_goal <x> <y>")
-			rclpy.shutdown()
-			sys.exit(1)
-		try:
-			goal_x = float(sys.argv[1])
-			goal_y = float(sys.argv[2])
-		except:
-			print("Erro, as coordenadas devem ser numeros")
-			rclpy.shutdown()
-			sys.exit(1)
-			
-		node = GoToGoal(goal_x, goal_y)
-		rclpy.spin(node)
+def main(args=None):
+	rclpy.init(args=args)
+	#verifica se os argumentos foram passados
+	if len(sys.argv) != 3:
+		print("Uso: ros2 run <nome_do_pacote> go_to_goal <x> <y>")
 		rclpy.shutdown()
+		sys.exit(1)
+	try:
+		goal_x = float(sys.argv[1])
+		goal_y = float(sys.argv[2])
+	except:
+		print("Erro, as coordenadas devem ser numeros")
+		rclpy.shutdown()
+		sys.exit(1)
 		
-	if __name__ == '__main__':
-		main()
+	node = GoToGoal(goal_x, goal_y)
+	rclpy.spin(node)
+	rclpy.shutdown()
+	
+if __name__ == '__main__':
+	main()

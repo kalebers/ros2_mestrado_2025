@@ -1,5 +1,5 @@
 import rclpy
-from rclpy import Node
+from rclpy.node import Node
 from geometry_msgs.msg import Twist
 from turtlesim.msg import Pose
 import math
@@ -26,7 +26,7 @@ class GoToGoal(Node):
 		distance = math.sqrt((self.goal_x - self.pose.x) ** 2 + (self.goal_y - self.pose.y) ** 2)
 		
 		if distance > 0.1: # se ainda nao chegou
-			angle_to_goal = math.atan2(self.goal_y - self.pose_y, self.goal_x - self.pose.x)
+			angle_to_goal = math.atan2(self.goal_y - self.pose.y, self.goal_x - self.pose.x)
 			msg.linear.x = 1.5 * distance
 			msg.angular.z = 4.0 * (angle_to_goal - self.pose.theta)
 		else:
