@@ -2,3 +2,11 @@
 	- This repository have all ROS2 workspaces used in my Robot Systems class at PUCPR in 	 	2025 for my masters mandatory classes.
 	- I'm using Ubuntu 22.04 with ROS2 Humble and Gazebo.
 		- This workspaces are only for study purposes.
+	- To run the files:
+		- ACtivity 1:
+			- ros2 run turtlesim turtlesim_node
+			- ros2 run turtle_sim_pkg draw_square
+			- ros2 run turtle_sim_pkg pose_subscriber
+		- Activity 2:
+			- ros2 run turtlesim turtlesim_node
+			- ros2 run turtle_sim_pkg go_to_goal <value><value>

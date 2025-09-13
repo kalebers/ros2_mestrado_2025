@@ -39,24 +39,24 @@ class GoToGoal(Node):
 			
 		self.publisher_.publish(msg)
 		
-	def main(args=None):
-		rclpy.init(args=args)
-		#verifica se os argumentos foram passados
-		if len(sys.argv) != 3:
-			print("Uso: ros2 run <nome_do_pacote> go_to_goal <x> <y>")
-			rclpy.shutdown()
-			sys.exit(1)
-		try:
-			goal_x = float(sys.argv[1])
-			goal_y = float(sys.argv[2])
-		except:
-			print("Erro, as coordenadas devem ser numeros")
-			rclpy.shutdown()
-			sys.exit(1)
-			
-		node = GoToGoal(goal_x, goal_y)
-		rclpy.spin(node)
+def main(args=None):
+	rclpy.init(args=args)
+	#verifica se os argumentos foram passados
+	if len(sys.argv) != 3:
+		print("Uso: ros2 run <nome_do_pacote> go_to_goal <x> <y>")
 		rclpy.shutdown()
+		sys.exit(1)
+	try:
+		goal_x = float(sys.argv[1])
+		goal_y = float(sys.argv[2])
+	except:
+		print("Erro, as coordenadas devem ser numeros")
+		rclpy.shutdown()
+		sys.exit(1)
 		
-	if __name__ == '__main__':
-		main()
+	node = GoToGoal(goal_x, goal_y)
+	rclpy.spin(node)
+	rclpy.shutdown()
+	
+if __name__ == '__main__':
+	main()

@@ -41,15 +41,15 @@ class SquarePublisher(Node):
 			self.destroy_node()
 			
 			
-	def main(args=None):
-		rclpy.init(args=args)
-		node = SquarePublisher()
-		try:
-			rclpy.spin(node)
-		except SystemExit:
-			rclpy.get_logger('square_publisher').info('No encerrado')
-		finally:
-			rclpy.shutdown()
-		
-	if __name__ == '__main__':
-		main()
+def main(args=None):
+	rclpy.init(args=args)
+	node = SquarePublisher()
+	try:
+		rclpy.spin(node)
+	except SystemExit:
+		rclpy.get_logger('square_publisher').info('No encerrado')
+	finally:
+		rclpy.shutdown()
+	
+if __name__ == '__main__':
+	main()
