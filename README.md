@@ -13,5 +13,6 @@
 			- ros2 run turtle_sim_pkg go_to_goal <value><value>
 			
 	- LiDAR activity class 03:
+		- ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 		- ros2 run lidar_turtlebot_activity lidar_plotter
 		- ros2 run lidar_turtlebot_activity turtlebot_avoidance
