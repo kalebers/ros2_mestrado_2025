@@ -1,0 +1,46 @@
+[6.560s] Invoking command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data
+[7.993s] running egg_info
+[7.994s] creating ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info
+[7.995s] writing ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/PKG-INFO
+[7.996s] writing dependency_links to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/dependency_links.txt
+[7.998s] writing entry points to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/entry_points.txt
+[7.998s] writing requirements to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/requires.txt
+[7.999s] writing top-level names to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/top_level.txt
+[8.000s] writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+[8.017s] reading manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+[8.024s] writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+[8.024s] running build
+[8.024s] running build_py
+[8.029s] creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build
+[8.029s] creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib
+[8.029s] creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+[8.029s] copying lidar_turtlebot_activity/turtlebot_avoidance.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+[8.029s] copying lidar_turtlebot_activity/lidar_plotter.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+[8.030s] copying lidar_turtlebot_activity/__init__.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+[8.030s] running install
+[8.030s] running install_lib
+[8.030s] creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+[8.031s] copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/turtlebot_avoidance.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+[8.032s] copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/lidar_plotter.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+[8.033s] copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/__init__.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+[8.052s] byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/turtlebot_avoidance.py to turtlebot_avoidance.cpython-310.pyc
+[8.057s]   File "/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/turtlebot_avoidance.py", line 68
+[8.057s]     if __name__ = '__main__':
+[8.057s]        ^^^^^^^^^^^^^^^^^^^^^
+[8.057s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[8.057s] 
+[8.058s] byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/lidar_plotter.py to lidar_plotter.cpython-310.pyc
+[8.063s] byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/__init__.py to __init__.cpython-310.pyc
+[8.063s] running install_data
+[8.063s] creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index
+[8.063s] creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index
+[8.063s] creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index/packages
+[8.064s] copying resource/lidar_turtlebot_activity -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index/packages
+[8.065s] copying package.xml -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity
+[8.065s] running install_egg_info
+[8.069s] Copying ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info
+[8.071s] running install_scripts
+[8.191s] Installing lidar_plotter script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+[8.192s] Installing turtlebot_avoidance script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+[8.193s] writing list of installed files to '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log'
+[8.364s] Invoked command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data

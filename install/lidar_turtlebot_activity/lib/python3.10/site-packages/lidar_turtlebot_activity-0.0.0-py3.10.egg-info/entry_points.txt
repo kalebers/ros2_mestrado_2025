@@ -1,0 +1,4 @@
+[console_scripts]
+lidar_plotter = lidar_turtlebot_activity.lidar_plotter:main
+turtlebot_avoidance = lidar_turtlebot_activity.turtlebot_avoidance:main
+

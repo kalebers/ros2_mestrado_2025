@@ -3,10 +3,15 @@
 	- I'm using Ubuntu 22.04 with ROS2 Humble and Gazebo.
 		- This workspaces are only for study purposes.
 	- To run the files:
-		- ACtivity 1:
+	= TurtleSim activities class 02:
+		- Activity 1:
 			- ros2 run turtlesim turtlesim_node
 			- ros2 run turtle_sim_pkg draw_square
 			- ros2 run turtle_sim_pkg pose_subscriber
 		- Activity 2:
 			- ros2 run turtlesim turtlesim_node
 			- ros2 run turtle_sim_pkg go_to_goal <value><value>
+			
+	- LiDAR activity class 03:
+		- ros2 run lidar_turtlebot_activity lidar_plotter
+		- ros2 run lidar_turtlebot_activity turtlebot_avoidance
