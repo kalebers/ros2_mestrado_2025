@@ -1,0 +1,3 @@
+[console_scripts]
+hybrid_control = turtle_control.controlador_hibrido:main
+

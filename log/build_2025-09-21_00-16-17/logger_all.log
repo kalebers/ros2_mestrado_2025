@@ -1,0 +1,227 @@
+[3.619s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.619s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7abc26866cb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7abc268666b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7abc268666b0>>, mixin_verb=('build',))
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.393s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vboxuser/ros2_ws'
+[8.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.394s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.399s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.649s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.650s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.651s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.652s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.652s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.653s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.654s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.658s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.659s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.660s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extensions ['ignore', 'ignore_ament_install']
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extension 'ignore'
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extension 'ignore_ament_install'
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extensions ['colcon_pkg']
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extension 'colcon_pkg'
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extensions ['colcon_meta']
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extension 'colcon_meta'
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extensions ['ros']
+[8.666s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_turtlebot_activity) by extension 'ros'
+[8.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_turtlebot_activity' with type 'ros.ament_python' and name 'lidar_turtlebot_activity'
+[8.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ignore', 'ignore_ament_install']
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore'
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore_ament_install'
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_pkg']
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_pkg'
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_meta']
+[8.725s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_meta'
+[8.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ros']
+[8.726s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ros'
+[8.728s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control' with type 'ros.ament_python' and name 'turtle_control'
+[8.730s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extensions ['ignore', 'ignore_ament_install']
+[8.731s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extension 'ignore'
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extension 'ignore_ament_install'
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extensions ['colcon_pkg']
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extension 'colcon_pkg'
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extensions ['colcon_meta']
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extension 'colcon_meta'
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extensions ['ros']
+[8.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_sim_pkg) by extension 'ros'
+[8.736s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_sim_pkg' with type 'ros.ament_python' and name 'turtle_sim_pkg'
+[8.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.736s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[9.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[9.119s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/vboxuser/ros2_ws/install
+[9.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[9.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_args' from command line to 'None'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_target' from command line to 'None'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_clean_cache' from command line to 'False'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_clean_first' from command line to 'False'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'cmake_force_configure' from command line to 'False'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'ament_cmake_args' from command line to 'None'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'catkin_cmake_args' from command line to 'None'
+[10.719s] Level 5:colcon.colcon_core.verb:set package 'lidar_turtlebot_activity' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.719s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_turtlebot_activity' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity', 'merge_install': False, 'path': '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity', 'symlink_install': False, 'test_result_base': None}
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_args' from command line to 'None'
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target' from command line to 'None'
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_first' from command line to 'False'
+[10.720s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_force_configure' from command line to 'False'
+[10.721s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'ament_cmake_args' from command line to 'None'
+[10.721s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[10.721s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.721s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/ros2_ws/build/turtle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/ros2_ws/install/turtle_control', 'merge_install': False, 'path': '/home/vboxuser/ros2_ws/src/turtle_control', 'symlink_install': False, 'test_result_base': None}
+[10.722s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_args' from command line to 'None'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_target' from command line to 'None'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[10.723s] Level 5:colcon.colcon_core.verb:set package 'turtle_sim_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[10.724s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_sim_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vboxuser/ros2_ws/build/turtle_sim_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vboxuser/ros2_ws/install/turtle_sim_pkg', 'merge_install': False, 'path': '/home/vboxuser/ros2_ws/src/turtle_sim_pkg', 'symlink_install': False, 'test_result_base': None}
+[10.724s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.737s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity' with build type 'ament_python'
+[10.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_turtlebot_activity', 'ament_prefix_path')
+[10.777s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/ament_prefix_path.ps1'
+[10.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/ament_prefix_path.dsv'
+[10.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/ament_prefix_path.sh'
+[10.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.805s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/ros2_ws/src/turtle_control' with build type 'ament_python'
+[10.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'ament_prefix_path')
+[10.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.ps1'
+[10.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.dsv'
+[10.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.sh'
+[10.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.109s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity'
+[14.110s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.110s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.567s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/ros2_ws/src/turtle_control'
+[15.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ros2_ws/src/turtle_control': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/vboxuser/ros2_ws/build/turtle_control/build install --record /home/vboxuser/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[21.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data
+[23.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ros2_ws/src/turtle_control' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/vboxuser/ros2_ws/build/turtle_control/build install --record /home/vboxuser/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[23.558s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control' for CMake module files
+[23.559s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control' for CMake config files
+[23.572s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control/lib'
+[23.573s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control/bin'
+[23.573s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control/lib/pkgconfig/turtle_control.pc'
+[23.574s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages'
+[23.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'pythonpath')
+[23.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.ps1'
+[23.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.dsv'
+[23.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.sh'
+[23.579s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_control/bin'
+[23.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control)
+[23.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/package.ps1'
+[23.583s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/package.dsv'
+[23.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/package.sh'
+[23.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/package.bash'
+[23.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_control/share/turtle_control/package.zsh'
+[23.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ros2_ws/install/turtle_control/share/colcon-core/packages/turtle_control)
+[23.608s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg' with build type 'ament_python'
+[23.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_sim_pkg', 'ament_prefix_path')
+[23.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/ament_prefix_path.ps1'
+[23.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/ament_prefix_path.dsv'
+[23.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/ament_prefix_path.sh'
+[23.636s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.153s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg'
+[25.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[25.210s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity' for CMake module files
+[25.217s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity' for CMake config files
+[25.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data
+[25.242s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib'
+[25.242s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/bin'
+[25.242s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/pkgconfig/lidar_turtlebot_activity.pc'
+[25.242s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages'
+[25.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_turtlebot_activity', 'pythonpath')
+[25.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/pythonpath.ps1'
+[25.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/pythonpath.dsv'
+[25.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/hook/pythonpath.sh'
+[25.268s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/bin'
+[25.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_turtlebot_activity)
+[25.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/package.ps1'
+[25.271s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/package.dsv'
+[25.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/package.sh'
+[25.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/package.bash'
+[25.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity/package.zsh'
+[25.274s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/colcon-core/packages/lidar_turtlebot_activity)
+[27.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_pkg build --build-base /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build install --record /home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log --single-version-externally-managed install_data
+[28.898s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg' for CMake module files
+[28.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_pkg build --build-base /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build install --record /home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log --single-version-externally-managed install_data
+[28.907s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg' for CMake config files
+[28.976s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib'
+[28.976s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/bin'
+[28.978s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/pkgconfig/turtle_sim_pkg.pc'
+[28.979s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages'
+[28.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_sim_pkg', 'pythonpath')
+[28.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/pythonpath.ps1'
+[28.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/pythonpath.dsv'
+[28.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/hook/pythonpath.sh'
+[28.999s] Level 1:colcon.colcon_core.environment:checking '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/bin'
+[28.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_sim_pkg)
+[29.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/package.ps1'
+[29.002s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/package.dsv'
+[29.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/package.sh'
+[29.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/package.bash'
+[29.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg/package.zsh'
+[29.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/colcon-core/packages/turtle_sim_pkg)
+[29.017s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.033s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.033s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.126s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.131s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.279s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.279s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/install/local_setup.ps1'
+[29.325s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ros2_ws/install/_local_setup_util_ps1.py'
+[29.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/install/setup.ps1'
+[29.354s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/install/local_setup.sh'
+[29.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vboxuser/ros2_ws/install/_local_setup_util_sh.py'
+[29.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/install/setup.sh'
+[29.389s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/install/local_setup.bash'
+[29.391s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/install/setup.bash'
+[29.396s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vboxuser/ros2_ws/install/local_setup.zsh'
+[29.398s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vboxuser/ros2_ws/install/setup.zsh'
