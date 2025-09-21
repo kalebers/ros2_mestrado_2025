@@ -27,3 +27,10 @@
 			ros2 run turtle_control hybrid_control
 			
 			ros2 topic echo /cmd_vel #to check the robot odometry
+			
+		- Robot position monitoring class 07:
+			export TURTLEBOT3_MODEL=waffle
+			
+			ros2 launch nav2_bringup tb3_simulation_launch.py headless:=False
+			
+			ros2 run waypoint_navigator waypoint_navigator_node

@@ -1,0 +1,37 @@
+[2.392s] Invoking command in '/home/vboxuser/ros2_ws/src/waypoint_navigator': PYTHONPATH=/home/vboxuser/ros2_ws/build/waypoint_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_navigator build --build-base /home/vboxuser/ros2_ws/build/waypoint_navigator/build install --record /home/vboxuser/ros2_ws/build/waypoint_navigator/install.log --single-version-externally-managed install_data
+[2.982s] running egg_info
+[3.003s] creating ../../build/waypoint_navigator/waypoint_navigator.egg-info
+[3.007s] writing ../../build/waypoint_navigator/waypoint_navigator.egg-info/PKG-INFO
+[3.007s] writing dependency_links to ../../build/waypoint_navigator/waypoint_navigator.egg-info/dependency_links.txt
+[3.007s] writing entry points to ../../build/waypoint_navigator/waypoint_navigator.egg-info/entry_points.txt
+[3.007s] writing requirements to ../../build/waypoint_navigator/waypoint_navigator.egg-info/requires.txt
+[3.008s] writing top-level names to ../../build/waypoint_navigator/waypoint_navigator.egg-info/top_level.txt
+[3.008s] writing manifest file '../../build/waypoint_navigator/waypoint_navigator.egg-info/SOURCES.txt'
+[3.020s] reading manifest file '../../build/waypoint_navigator/waypoint_navigator.egg-info/SOURCES.txt'
+[3.024s] writing manifest file '../../build/waypoint_navigator/waypoint_navigator.egg-info/SOURCES.txt'
+[3.025s] running build
+[3.025s] running build_py
+[3.026s] creating /home/vboxuser/ros2_ws/build/waypoint_navigator/build
+[3.026s] creating /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib
+[3.026s] creating /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator
+[3.026s] copying waypoint_navigator/waypoint_navigator_node.py -> /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator
+[3.027s] copying waypoint_navigator/__init__.py -> /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator
+[3.027s] running install
+[3.029s] running install_lib
+[3.030s] creating /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator
+[3.031s] copying /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator/waypoint_navigator_node.py -> /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator
+[3.032s] copying /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator/__init__.py -> /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator
+[3.034s] byte-compiling /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator/waypoint_navigator_node.py to waypoint_navigator_node.cpython-310.pyc
+[3.039s] byte-compiling /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator/__init__.py to __init__.cpython-310.pyc
+[3.039s] running install_data
+[3.039s] creating /home/vboxuser/ros2_ws/install/waypoint_navigator/share/ament_index
+[3.040s] creating /home/vboxuser/ros2_ws/install/waypoint_navigator/share/ament_index/resource_index
+[3.040s] creating /home/vboxuser/ros2_ws/install/waypoint_navigator/share/ament_index/resource_index/packages
+[3.040s] copying resource/waypoint_navigator -> /home/vboxuser/ros2_ws/install/waypoint_navigator/share/ament_index/resource_index/packages
+[3.041s] copying package.xml -> /home/vboxuser/ros2_ws/install/waypoint_navigator/share/waypoint_navigator
+[3.041s] running install_egg_info
+[3.052s] Copying ../../build/waypoint_navigator/waypoint_navigator.egg-info to /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator-0.0.0-py3.10.egg-info
+[3.054s] running install_scripts
+[3.092s] Installing waypoint_navigator_node script to /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/waypoint_navigator
+[3.092s] writing list of installed files to '/home/vboxuser/ros2_ws/build/waypoint_navigator/install.log'
+[3.147s] Invoked command in '/home/vboxuser/ros2_ws/src/waypoint_navigator' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/waypoint_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/waypoint_navigator build --build-base /home/vboxuser/ros2_ws/build/waypoint_navigator/build install --record /home/vboxuser/ros2_ws/build/waypoint_navigator/install.log --single-version-externally-managed install_data
