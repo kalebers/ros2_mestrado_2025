@@ -1,0 +1,46 @@
+[4.847s] Invoking command in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_pkg build --build-base /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build install --record /home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log --single-version-externally-managed install_data
+[6.472s] running egg_info
+[6.472s] creating ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info
+[6.473s] writing ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/PKG-INFO
+[6.473s] writing dependency_links to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/dependency_links.txt
+[6.473s] writing entry points to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/entry_points.txt
+[6.473s] writing requirements to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/requires.txt
+[6.473s] writing top-level names to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/top_level.txt
+[6.504s] writing manifest file '../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/SOURCES.txt'
+[6.505s] reading manifest file '../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/SOURCES.txt'
+[6.505s] adding license file 'LICENSE'
+[6.505s] writing manifest file '../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/SOURCES.txt'
+[6.505s] running build
+[6.505s] running build_py
+[6.505s] creating /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build
+[6.505s] creating /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib
+[6.505s] creating /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg
+[6.506s] copying turtle_sim_pkg/go_to_goal.py -> /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg
+[6.507s] copying turtle_sim_pkg/draw_square.py -> /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg
+[6.510s] copying turtle_sim_pkg/pose_subscriber.py -> /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg
+[6.510s] copying turtle_sim_pkg/__init__.py -> /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg
+[6.535s] running install
+[6.536s] running install_lib
+[6.601s] creating /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg
+[6.604s] copying /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg/go_to_goal.py -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg
+[6.604s] copying /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg/draw_square.py -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg
+[6.604s] copying /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg/pose_subscriber.py -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg
+[6.605s] copying /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build/lib/turtle_sim_pkg/__init__.py -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg
+[6.605s] byte-compiling /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg/go_to_goal.py to go_to_goal.cpython-310.pyc
+[6.605s] byte-compiling /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg/draw_square.py to draw_square.cpython-310.pyc
+[6.605s] byte-compiling /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg/pose_subscriber.py to pose_subscriber.cpython-310.pyc
+[6.605s] byte-compiling /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg/__init__.py to __init__.cpython-310.pyc
+[6.605s] running install_data
+[6.605s] creating /home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/ament_index
+[6.605s] creating /home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/ament_index/resource_index
+[6.606s] creating /home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/ament_index/resource_index/packages
+[6.606s] copying resource/turtle_sim_pkg -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/ament_index/resource_index/packages
+[6.606s] copying package.xml -> /home/vboxuser/ros2_ws/install/turtle_sim_pkg/share/turtle_sim_pkg
+[6.606s] running install_egg_info
+[6.641s] Copying ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg-0.0.0-py3.10.egg-info
+[6.641s] running install_scripts
+[7.182s] Installing draw_square script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg
+[7.202s] Installing go_to_goal script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg
+[7.202s] Installing pose_subscriber script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg
+[7.202s] writing list of installed files to '/home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log'
+[7.370s] Invoked command in '/home/vboxuser/ros2_ws/src/turtle_sim_pkg' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_pkg build --build-base /home/vboxuser/ros2_ws/build/turtle_sim_pkg/build install --record /home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log --single-version-externally-managed install_data

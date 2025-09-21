@@ -23,7 +23,7 @@ class WaypointNavigator(Node):
 		# subscriber para o topico de odometria do robo
 		self.odom_subscriber = self.create_subscription(
 			Odometry,
-			'/odom'.
+			'/odom',
 			self.odom_callback,
 			10
 		)

@@ -1,0 +1,21 @@
+[6.042s] Invoking command in '/home/vboxuser/ros2_ws/src/turtle_control': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/vboxuser/ros2_ws/build/turtle_control/build install --record /home/vboxuser/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data
+[7.852s] running egg_info
+[7.854s] writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO
+[7.870s] writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt
+[7.870s] writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt
+[7.871s] writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt
+[7.871s] writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt
+[7.871s] reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[7.919s] writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'
+[7.920s] running build
+[7.920s] running build_py
+[7.920s] running install
+[7.920s] running install_lib
+[7.920s] running install_data
+[7.931s] running install_egg_info
+[7.931s] removing '/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info' (and everything under it)
+[7.931s] Copying ../../build/turtle_control/turtle_control.egg-info to /home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info
+[7.932s] running install_scripts
+[8.132s] Installing hybrid_control script to /home/vboxuser/ros2_ws/install/turtle_control/lib/turtle_control
+[8.172s] writing list of installed files to '/home/vboxuser/ros2_ws/build/turtle_control/install.log'
+[8.444s] Invoked command in '/home/vboxuser/ros2_ws/src/turtle_control' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/vboxuser/ros2_ws/build/turtle_control/build install --record /home/vboxuser/ros2_ws/build/turtle_control/install.log --single-version-externally-managed install_data

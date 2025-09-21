@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info
+writing ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/requires.txt
+writing top-level names to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/top_level.txt
+writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build
+creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib
+creating /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+copying lidar_turtlebot_activity/turtlebot_avoidance.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+copying lidar_turtlebot_activity/lidar_plotter.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+copying lidar_turtlebot_activity/__init__.py -> /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity
+running install
+running install_lib
+creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/turtlebot_avoidance.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/lidar_plotter.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+copying /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build/lib/lidar_turtlebot_activity/__init__.py -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity
+byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/turtlebot_avoidance.py to turtlebot_avoidance.cpython-310.pyc
+byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/lidar_plotter.py to lidar_plotter.cpython-310.pyc
+byte-compiling /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index
+creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index
+creating /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index/packages
+copying resource/lidar_turtlebot_activity -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/ament_index/resource_index/packages
+copying package.xml -> /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/share/lidar_turtlebot_activity
+running install_egg_info
+Copying ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lidar_plotter script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+Installing turtlebot_avoidance script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+writing list of installed files to '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log'

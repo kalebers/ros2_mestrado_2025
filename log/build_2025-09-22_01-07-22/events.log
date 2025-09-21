@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.025434] (lidar_turtlebot_activity) JobQueued: {'identifier': 'lidar_turtlebot_activity', 'dependencies': OrderedDict()}
+[0.025528] (turtle_control) JobQueued: {'identifier': 'turtle_control', 'dependencies': OrderedDict()}
+[0.025554] (turtle_sim_pkg) JobQueued: {'identifier': 'turtle_sim_pkg', 'dependencies': OrderedDict()}
+[0.025576] (waypoint_navigator) JobQueued: {'identifier': 'waypoint_navigator', 'dependencies': OrderedDict()}
+[0.025599] (lidar_turtlebot_activity) JobStarted: {'identifier': 'lidar_turtlebot_activity'}
+[0.059851] (turtle_control) JobStarted: {'identifier': 'turtle_control'}
+[0.116852] (-) TimerEvent: {}
+[0.227202] (-) TimerEvent: {}
+[0.359535] (-) TimerEvent: {}
+[0.466927] (-) TimerEvent: {}
+[0.589014] (-) TimerEvent: {}
+[0.708241] (-) TimerEvent: {}
+[0.823790] (-) TimerEvent: {}
+[0.927562] (-) TimerEvent: {}
+[1.038916] (-) TimerEvent: {}
+[1.149152] (-) TimerEvent: {}
+[1.270260] (-) TimerEvent: {}
+[1.382909] (-) TimerEvent: {}
+[1.522281] (-) TimerEvent: {}
+[1.645568] (-) TimerEvent: {}
+[1.751332] (-) TimerEvent: {}
+[1.862211] (-) TimerEvent: {}
+[1.974105] (-) TimerEvent: {}
+[2.105760] (-) TimerEvent: {}
+[2.244593] (-) TimerEvent: {}
+[2.346998] (-) TimerEvent: {}
+[2.453850] (-) TimerEvent: {}
+[2.555570] (-) TimerEvent: {}
+[2.656703] (-) TimerEvent: {}
+[2.769555] (-) TimerEvent: {}
+[2.878304] (-) TimerEvent: {}
+[2.987278] (-) TimerEvent: {}
+[3.088557] (-) TimerEvent: {}
+[3.221382] (-) TimerEvent: {}
+[3.328898] (-) TimerEvent: {}
+[3.429623] (-) TimerEvent: {}
+[3.537523] (-) TimerEvent: {}
+[3.662506] (-) TimerEvent: {}
+[3.791819] (-) TimerEvent: {}
+[3.938108] (-) TimerEvent: {}
+[4.047785] (-) TimerEvent: {}
+[4.156967] (-) TimerEvent: {}
+[4.272269] (-) TimerEvent: {}
+[4.378138] (-) TimerEvent: {}
+[4.503600] (-) TimerEvent: {}
+[4.626064] (-) TimerEvent: {}
+[4.728757] (-) TimerEvent: {}
+[4.845696] (-) TimerEvent: {}
+[4.978986] (-) TimerEvent: {}
+[5.127143] (-) TimerEvent: {}
+[5.246089] (-) TimerEvent: {}
+[5.346931] (-) TimerEvent: {}
+[5.448286] (-) TimerEvent: {}
+[5.563068] (-) TimerEvent: {}
+[5.723683] (-) TimerEvent: {}
+[5.868467] (-) TimerEvent: {}
+[6.000746] (-) TimerEvent: {}
+[6.101322] (turtle_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_control', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/turtle_control/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/turtle_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/turtle_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1304', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1437', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:11225', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuROS:@/tmp/.ICE-unix/1437,unix/ubuntuROS:/tmp/.ICE-unix/1437', 'INVOCATION_ID': '84bfd5b57636468ca4436d9867636a89', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'TILIX_ID': '64df102e-5b6c-4c22-8d1b-b2da1b63ecdc', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RPPLD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/waypoint_navigator:/home/vboxuser/ros2_ws/install/turtle_sim_pkg:/home/vboxuser/ros2_ws/install/turtle_control:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/turtle_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/turtle_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.102370] (-) TimerEvent: {}
+[6.205567] (-) TimerEvent: {}
+[6.369637] (lidar_turtlebot_activity) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_turtlebot_activity', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1304', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1437', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:11225', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuROS:@/tmp/.ICE-unix/1437,unix/ubuntuROS:/tmp/.ICE-unix/1437', 'INVOCATION_ID': '84bfd5b57636468ca4436d9867636a89', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'TILIX_ID': '64df102e-5b6c-4c22-8d1b-b2da1b63ecdc', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RPPLD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/waypoint_navigator:/home/vboxuser/ros2_ws/install/turtle_sim_pkg:/home/vboxuser/ros2_ws/install/turtle_control:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.373362] (-) TimerEvent: {}
+[6.522236] (-) TimerEvent: {}
+[6.634113] (-) TimerEvent: {}
+[6.753863] (-) TimerEvent: {}
+[6.874582] (-) TimerEvent: {}
+[6.988636] (-) TimerEvent: {}
+[7.104213] (-) TimerEvent: {}
+[7.222679] (-) TimerEvent: {}
+[7.325991] (-) TimerEvent: {}
+[7.437916] (-) TimerEvent: {}
+[7.565667] (-) TimerEvent: {}
+[7.673793] (-) TimerEvent: {}
+[7.779168] (-) TimerEvent: {}
+[7.911416] (turtle_control) StdoutLine: {'line': b'running egg_info\n'}
+[7.911651] (-) TimerEvent: {}
+[7.912665] (turtle_control) StdoutLine: {'line': b'writing ../../build/turtle_control/turtle_control.egg-info/PKG-INFO\n'}
+[7.929837] (turtle_control) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_control/turtle_control.egg-info/dependency_links.txt\n'}
+[7.930123] (turtle_control) StdoutLine: {'line': b'writing entry points to ../../build/turtle_control/turtle_control.egg-info/entry_points.txt\n'}
+[7.930312] (turtle_control) StdoutLine: {'line': b'writing requirements to ../../build/turtle_control/turtle_control.egg-info/requires.txt\n'}
+[7.930507] (turtle_control) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_control/turtle_control.egg-info/top_level.txt\n'}
+[7.930703] (turtle_control) StdoutLine: {'line': b"reading manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[7.979132] (turtle_control) StdoutLine: {'line': b"writing manifest file '../../build/turtle_control/turtle_control.egg-info/SOURCES.txt'\n"}
+[7.979351] (turtle_control) StdoutLine: {'line': b'running build\n'}
+[7.979438] (turtle_control) StdoutLine: {'line': b'running build_py\n'}
+[7.979523] (turtle_control) StdoutLine: {'line': b'running install\n'}
+[7.979597] (turtle_control) StdoutLine: {'line': b'running install_lib\n'}
+[7.979824] (turtle_control) StdoutLine: {'line': b'running install_data\n'}
+[7.990593] (turtle_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.990941] (turtle_control) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.991122] (turtle_control) StdoutLine: {'line': b'Copying ../../build/turtle_control/turtle_control.egg-info to /home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages/turtle_control-0.0.0-py3.10.egg-info\n'}
+[7.991274] (turtle_control) StdoutLine: {'line': b'running install_scripts\n'}
+[8.029074] (-) TimerEvent: {}
+[8.040410] (lidar_turtlebot_activity) StdoutLine: {'line': b'running egg_info\n'}
+[8.041737] (lidar_turtlebot_activity) StdoutLine: {'line': b'writing ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/PKG-INFO\n'}
+[8.041922] (lidar_turtlebot_activity) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/dependency_links.txt\n'}
+[8.042846] (lidar_turtlebot_activity) StdoutLine: {'line': b'writing entry points to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/entry_points.txt\n'}
+[8.043899] (lidar_turtlebot_activity) StdoutLine: {'line': b'writing requirements to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/requires.txt\n'}
+[8.044853] (lidar_turtlebot_activity) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/top_level.txt\n'}
+[8.055857] (lidar_turtlebot_activity) StdoutLine: {'line': b"reading manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'\n"}
+[8.058129] (lidar_turtlebot_activity) StdoutLine: {'line': b"writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'\n"}
+[8.058444] (lidar_turtlebot_activity) StdoutLine: {'line': b'running build\n'}
+[8.058619] (lidar_turtlebot_activity) StdoutLine: {'line': b'running build_py\n'}
+[8.059239] (lidar_turtlebot_activity) StdoutLine: {'line': b'running install\n'}
+[8.060283] (lidar_turtlebot_activity) StdoutLine: {'line': b'running install_lib\n'}
+[8.062365] (lidar_turtlebot_activity) StdoutLine: {'line': b'running install_data\n'}
+[8.062672] (lidar_turtlebot_activity) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.067617] (lidar_turtlebot_activity) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.082700] (lidar_turtlebot_activity) StdoutLine: {'line': b'Copying ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info\n'}
+[8.127216] (lidar_turtlebot_activity) StdoutLine: {'line': b'running install_scripts\n'}
+[8.150828] (-) TimerEvent: {}
+[8.191564] (turtle_control) StdoutLine: {'line': b'Installing hybrid_control script to /home/vboxuser/ros2_ws/install/turtle_control/lib/turtle_control\n'}
+[8.231454] (turtle_control) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/turtle_control/install.log'\n"}
+[8.251232] (-) TimerEvent: {}
+[8.254757] (lidar_turtlebot_activity) StdoutLine: {'line': b'Installing lidar_plotter script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity\n'}
+[8.254934] (lidar_turtlebot_activity) StdoutLine: {'line': b'Installing turtlebot_avoidance script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity\n'}
+[8.255019] (lidar_turtlebot_activity) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log'\n"}
+[8.371375] (-) TimerEvent: {}
+[8.378441] (lidar_turtlebot_activity) CommandEnded: {'returncode': 0}
+[8.407919] (lidar_turtlebot_activity) JobEnded: {'identifier': 'lidar_turtlebot_activity', 'rc': 0}
+[8.410696] (turtle_sim_pkg) JobStarted: {'identifier': 'turtle_sim_pkg'}
+[8.481809] (-) TimerEvent: {}
+[8.504011] (turtle_control) CommandEnded: {'returncode': 0}
+[8.513320] (turtle_control) JobEnded: {'identifier': 'turtle_control', 'rc': 0}
+[8.523605] (waypoint_navigator) JobStarted: {'identifier': 'waypoint_navigator'}
+[8.602367] (-) TimerEvent: {}
+[8.713248] (-) TimerEvent: {}
+[8.838305] (-) TimerEvent: {}
+[8.967986] (-) TimerEvent: {}
+[9.084883] (-) TimerEvent: {}
+[9.212811] (-) TimerEvent: {}
+[9.316218] (-) TimerEvent: {}
+[9.426270] (-) TimerEvent: {}
+[9.536378] (-) TimerEvent: {}
+[9.646734] (-) TimerEvent: {}
+[9.748322] (-) TimerEvent: {}
+[9.854721] (-) TimerEvent: {}
+[9.983630] (-) TimerEvent: {}
+[10.087985] (-) TimerEvent: {}
+[10.190220] (-) TimerEvent: {}
+[10.307544] (-) TimerEvent: {}
+[10.447951] (-) TimerEvent: {}
+[10.550532] (-) TimerEvent: {}
+[10.672949] (-) TimerEvent: {}
+[10.782864] (-) TimerEvent: {}
+[10.915284] (-) TimerEvent: {}
+[11.034038] (-) TimerEvent: {}
+[11.146066] (-) TimerEvent: {}
+[11.266617] (-) TimerEvent: {}
+[11.387816] (-) TimerEvent: {}
+[11.589523] (-) TimerEvent: {}
+[11.777494] (-) TimerEvent: {}
+[11.897279] (-) TimerEvent: {}
+[11.999686] (-) TimerEvent: {}
+[12.118539] (-) TimerEvent: {}
+[12.231893] (-) TimerEvent: {}
+[12.347326] (-) TimerEvent: {}
+[12.458027] (-) TimerEvent: {}
+[12.559334] (-) TimerEvent: {}
+[12.669330] (-) TimerEvent: {}
+[12.786823] (-) TimerEvent: {}
+[12.905222] (-) TimerEvent: {}
+[13.005635] (-) TimerEvent: {}
+[13.124564] (-) TimerEvent: {}
+[13.256117] (-) TimerEvent: {}
+[13.358999] (-) TimerEvent: {}
+[13.479962] (-) TimerEvent: {}
+[13.609259] (-) TimerEvent: {}
+[13.649952] (turtle_sim_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_sim_pkg', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/turtle_sim_pkg/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/turtle_sim_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1304', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1437', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:11225', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuROS:@/tmp/.ICE-unix/1437,unix/ubuntuROS:/tmp/.ICE-unix/1437', 'INVOCATION_ID': '84bfd5b57636468ca4436d9867636a89', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'TILIX_ID': '64df102e-5b6c-4c22-8d1b-b2da1b63ecdc', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RPPLD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/waypoint_navigator:/home/vboxuser/ros2_ws/install/turtle_sim_pkg:/home/vboxuser/ros2_ws/install/turtle_control:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/turtle_sim_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/turtle_sim_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[13.736801] (-) TimerEvent: {}
+[13.797054] (waypoint_navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/waypoint_navigator', 'build', '--build-base', '/home/vboxuser/ros2_ws/build/waypoint_navigator/build', 'install', '--record', '/home/vboxuser/ros2_ws/build/waypoint_navigator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vboxuser/ros2_ws/src/waypoint_navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'vboxuser', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vboxuser', 'OLDPWD': '/home/vboxuser', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1304', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1437', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vboxuser/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vboxuser', 'JOURNAL_STREAM': '8:11225', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vboxuser', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntuROS:@/tmp/.ICE-unix/1437,unix/ubuntuROS:/tmp/.ICE-unix/1437', 'INVOCATION_ID': '84bfd5b57636468ca4436d9867636a89', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'TILIX_ID': '64df102e-5b6c-4c22-8d1b-b2da1b63ecdc', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RPPLD3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vboxuser/ros2_ws/install/waypoint_navigator:/home/vboxuser/ros2_ws/install/turtle_sim_pkg:/home/vboxuser/ros2_ws/install/turtle_control:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vboxuser/ros2_ws/build/waypoint_navigator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=5c0022dfaf0917d9e33ad31168d06093', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vboxuser/ros2_ws/build/waypoint_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/turtle_control/lib/python3.10/site-packages:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[13.837523] (-) TimerEvent: {}
+[13.946938] (-) TimerEvent: {}
+[14.060740] (-) TimerEvent: {}
+[14.165721] (-) TimerEvent: {}
+[14.293762] (-) TimerEvent: {}
+[14.428655] (-) TimerEvent: {}
+[14.536489] (-) TimerEvent: {}
+[14.692963] (-) TimerEvent: {}
+[14.807524] (-) TimerEvent: {}
+[14.914021] (-) TimerEvent: {}
+[15.029114] (-) TimerEvent: {}
+[15.140569] (-) TimerEvent: {}
+[15.247636] (-) TimerEvent: {}
+[15.328846] (turtle_sim_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[15.331025] (turtle_sim_pkg) StdoutLine: {'line': b'writing ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/PKG-INFO\n'}
+[15.331167] (turtle_sim_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/dependency_links.txt\n'}
+[15.344313] (turtle_sim_pkg) StdoutLine: {'line': b'writing entry points to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/entry_points.txt\n'}
+[15.344518] (turtle_sim_pkg) StdoutLine: {'line': b'writing requirements to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/requires.txt\n'}
+[15.344759] (turtle_sim_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/top_level.txt\n'}
+[15.344957] (turtle_sim_pkg) StdoutLine: {'line': b"reading manifest file '../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/SOURCES.txt'\n"}
+[15.345079] (turtle_sim_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[15.357645] (-) TimerEvent: {}
+[15.376915] (turtle_sim_pkg) StdoutLine: {'line': b"writing manifest file '../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info/SOURCES.txt'\n"}
+[15.377210] (turtle_sim_pkg) StdoutLine: {'line': b'running build\n'}
+[15.377333] (turtle_sim_pkg) StdoutLine: {'line': b'running build_py\n'}
+[15.377446] (turtle_sim_pkg) StdoutLine: {'line': b'running install\n'}
+[15.377558] (turtle_sim_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[15.377687] (turtle_sim_pkg) StdoutLine: {'line': b'running install_data\n'}
+[15.377799] (turtle_sim_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.387175] (turtle_sim_pkg) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.387379] (turtle_sim_pkg) StdoutLine: {'line': b'Copying ../../build/turtle_sim_pkg/turtle_sim_pkg.egg-info to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/python3.10/site-packages/turtle_sim_pkg-0.0.0-py3.10.egg-info\n'}
+[15.387465] (turtle_sim_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[15.467123] (-) TimerEvent: {}
+[15.478215] (waypoint_navigator) StdoutLine: {'line': b'running egg_info\n'}
+[15.478647] (waypoint_navigator) StdoutLine: {'line': b'writing ../../build/waypoint_navigator/waypoint_navigator.egg-info/PKG-INFO\n'}
+[15.478922] (waypoint_navigator) StdoutLine: {'line': b'writing dependency_links to ../../build/waypoint_navigator/waypoint_navigator.egg-info/dependency_links.txt\n'}
+[15.504681] (turtle_sim_pkg) StdoutLine: {'line': b'Installing draw_square script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg\n'}
+[15.504956] (turtle_sim_pkg) StdoutLine: {'line': b'Installing go_to_goal script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg\n'}
+[15.505105] (turtle_sim_pkg) StdoutLine: {'line': b'Installing pose_subscriber script to /home/vboxuser/ros2_ws/install/turtle_sim_pkg/lib/turtle_sim_pkg\n'}
+[15.505290] (turtle_sim_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/turtle_sim_pkg/install.log'\n"}
+[15.506556] (waypoint_navigator) StdoutLine: {'line': b'writing entry points to ../../build/waypoint_navigator/waypoint_navigator.egg-info/entry_points.txt\n'}
+[15.520981] (waypoint_navigator) StdoutLine: {'line': b'writing requirements to ../../build/waypoint_navigator/waypoint_navigator.egg-info/requires.txt\n'}
+[15.522315] (waypoint_navigator) StdoutLine: {'line': b'writing top-level names to ../../build/waypoint_navigator/waypoint_navigator.egg-info/top_level.txt\n'}
+[15.522726] (waypoint_navigator) StdoutLine: {'line': b"reading manifest file '../../build/waypoint_navigator/waypoint_navigator.egg-info/SOURCES.txt'\n"}
+[15.539265] (waypoint_navigator) StdoutLine: {'line': b"writing manifest file '../../build/waypoint_navigator/waypoint_navigator.egg-info/SOURCES.txt'\n"}
+[15.577002] (-) TimerEvent: {}
+[15.602807] (waypoint_navigator) StdoutLine: {'line': b'running build\n'}
+[15.603790] (waypoint_navigator) StdoutLine: {'line': b'running build_py\n'}
+[15.604422] (waypoint_navigator) StdoutLine: {'line': b'copying waypoint_navigator/waypoint_navigator_node.py -> /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator\n'}
+[15.605009] (waypoint_navigator) StdoutLine: {'line': b'running install\n'}
+[15.642316] (waypoint_navigator) StdoutLine: {'line': b'running install_lib\n'}
+[15.642407] (waypoint_navigator) StdoutLine: {'line': b'copying /home/vboxuser/ros2_ws/build/waypoint_navigator/build/lib/waypoint_navigator/waypoint_navigator_node.py -> /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator\n'}
+[15.642508] (waypoint_navigator) StdoutLine: {'line': b'byte-compiling /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator/waypoint_navigator_node.py to waypoint_navigator_node.cpython-310.pyc\n'}
+[15.642585] (waypoint_navigator) StdoutLine: {'line': b'running install_data\n'}
+[15.642658] (waypoint_navigator) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.642802] (waypoint_navigator) StdoutLine: {'line': b"removing '/home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[15.650625] (waypoint_navigator) StdoutLine: {'line': b'Copying ../../build/waypoint_navigator/waypoint_navigator.egg-info to /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/python3.10/site-packages/waypoint_navigator-0.0.0-py3.10.egg-info\n'}
+[15.650865] (waypoint_navigator) StdoutLine: {'line': b'running install_scripts\n'}
+[15.695883] (turtle_sim_pkg) CommandEnded: {'returncode': 0}
+[15.696537] (-) TimerEvent: {}
+[15.728994] (waypoint_navigator) StdoutLine: {'line': b'Installing waypoint_navigator_node script to /home/vboxuser/ros2_ws/install/waypoint_navigator/lib/waypoint_navigator\n'}
+[15.767965] (waypoint_navigator) StdoutLine: {'line': b"writing list of installed files to '/home/vboxuser/ros2_ws/build/waypoint_navigator/install.log'\n"}
+[15.797009] (turtle_sim_pkg) JobEnded: {'identifier': 'turtle_sim_pkg', 'rc': 0}
+[15.846027] (-) TimerEvent: {}
+[15.889095] (waypoint_navigator) CommandEnded: {'returncode': 0}
+[15.930914] (waypoint_navigator) JobEnded: {'identifier': 'waypoint_navigator', 'rc': 0}
+[15.934508] (-) EventReactorShutdown: {}

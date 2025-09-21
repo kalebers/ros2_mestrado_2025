@@ -1,0 +1,22 @@
+[6.347s] Invoking command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data
+[8.016s] running egg_info
+[8.016s] writing ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/PKG-INFO
+[8.016s] writing dependency_links to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/dependency_links.txt
+[8.017s] writing entry points to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/entry_points.txt
+[8.018s] writing requirements to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/requires.txt
+[8.019s] writing top-level names to ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/top_level.txt
+[8.031s] reading manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+[8.033s] writing manifest file '../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info/SOURCES.txt'
+[8.033s] running build
+[8.033s] running build_py
+[8.034s] running install
+[8.035s] running install_lib
+[8.037s] running install_data
+[8.037s] running install_egg_info
+[8.042s] removing '/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info' (and everything under it)
+[8.057s] Copying ../../build/lidar_turtlebot_activity/lidar_turtlebot_activity.egg-info to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages/lidar_turtlebot_activity-0.0.0-py3.10.egg-info
+[8.102s] running install_scripts
+[8.229s] Installing lidar_plotter script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+[8.229s] Installing turtlebot_avoidance script to /home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/lidar_turtlebot_activity
+[8.229s] writing list of installed files to '/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log'
+[8.353s] Invoked command in '/home/vboxuser/ros2_ws/src/lidar_turtlebot_activity' returned '0': PYTHONPATH=/home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/ros2_ws/install/lidar_turtlebot_activity/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_turtlebot_activity build --build-base /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/build install --record /home/vboxuser/ros2_ws/build/lidar_turtlebot_activity/install.log --single-version-externally-managed install_data
